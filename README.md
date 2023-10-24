@@ -12,3 +12,7 @@
  git push subir lo que hay en el ordenador a la nube
 
  git pull descargarte lo de la nube al ordenador
+
+ control z volver atras en el tiempo
+
+ control + shift + z hacia el futuro!!
