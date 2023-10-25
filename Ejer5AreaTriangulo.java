@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ejer5AreaTriangulo {
+public class Ej5AreaTriangulo {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
