@@ -11,21 +11,88 @@ public class Ej10MiniCuestionario {
      Scanner sc = new Scanner(System.in);
      int respuesta;
      int numRespCorrectas=0;
-    System.out.println("De que color es el cielo:\n1 azul, \n2 rojo, \n3 negro, \n4 rosa");
-    respuesta=sc.nextInt();
-    if (respuesta==1) {
-        numRespCorrectas+=1;
-    } 
-    System.out.println("a que hora empieza el instituto: 1 8:45, 2 9:00, 3 8:15, 4 8:30");
+    }
+    System.out.println("¿Cuál de las siguientes no es una variable en la programación?\n" + 
+            "a) Entero\n" + 
+            "b) Cadena de caracteres\n" + 
+            "c) Rueda de bicicleta\n" + 
+            "d) Flotante");
     respuesta=sc.nextInt();
     if (respuesta==3) {
         numRespCorrectas+=1;
     } 
-     System.out.println("a que hora es el descanso: 1 11:30, 2 11:00, 3 11:45, 4 11:15");
+     System.out.println("¿Qué es la programación orientada a objetos?\n" + 
+             "a) Un paradigma de programación que utiliza objetos para representar datos y funcionalidad.\n" + 
+             "b) Un sistema operativo.\n" + 
+             "c) Una biblioteca de funciones matemáticas.\n" + 
+             "d) Un tipo de virus informático.");
     respuesta=sc.nextInt();
-    if (respuesta==4) {
+    if (respuesta==1) {
         numRespCorrectas+=1;
     } 
+    System.out.println("¿Cuál de las siguientes no es una estructura de control en programación?\n" + 
+            "a) Bucle\n" + 
+            "b) Clase\n" + 
+            "c) Condicional\n" + 
+            "d) Función");
+    respuesta=sc.nextInt();
+    if (respuesta==2) {
+        numRespCorrectas+=1;
+    }
+    System.out.println("¿Cuál de los siguientes lenguajes es ampliamente utilizado para el desarrollo de aplicaciones móviles?\n" + //
+            "a) C++\n" + 
+            "b) Java\n" + 
+            "c) HTML\n" + 
+            "d) Photoshop");
+    respuesta=sc.nextInt();
+    if (respuesta==2) {
+        numRespCorrectas+=1;
+    }
+    System.out.println("¿Qué es un IDE en programación?\n" + 
+            "a) Un Entorno de Desarrollo Integrado, que proporciona herramientas para escribir y depurar código.\n" + 
+            "b) Un servidor web.\n" + 
+            "c) Un sistema operativo.\n" + 
+            "d) Un lenguaje de programación. ");
+    respuesta=sc.nextInt();
+    if (respuesta==1) {
+        numRespCorrectas+=1;
+    }
+    System.out.println("¿Qué significa \"debuggear\" un programa?\n" + 
+            "a) Encontrar y corregir errores en el código.\n" + 
+            "b) Ejecutar el programa en modo de prueba.\n" + 
+            "c) Compilar el programa.\n" + 
+            "d) Eliminar el programa por completo.");
+    respuesta=sc.nextInt();
+    if (respuesta==1) {
+        numRespCorrectas+=1;
+    }
+    System.out.println("¿Qué es un array o arreglo en programación?\n" + 
+            "a) Una estructura de datos que almacena una colección de elementos del mismo tipo.\n" + 
+            "b) Una instrucción de control.\n" + 
+            "c) Un operador aritmético.\n" + 
+            "d) Un tipo de bucle.");
+    respuesta=sc.nextInt();
+    if (respuesta==1) {
+        numRespCorrectas+=1;
+    }
+    System.out.println("¿Cuál de los siguientes lenguajes se usa comúnmente para crear páginas web interactivas?\n" + 
+            "a) Python\n" + 
+            "b) JavaScript\n" + 
+            "c) Ruby\n" + 
+            "d) SQL");
+    respuesta=sc.nextInt();
+    if (respuesta==2) {
+        numRespCorrectas+=1;
+    }
+    System.out.println("¿Qué es un algoritmo?\n" + 
+            "a) Un conjunto de instrucciones que resuelve un problema o realiza una tarea.\n" + 
+            "b) Una herramienta de diseño gráfico.\n" + 
+            "c) Un programa informático.\n" + 
+            "d) Un tipo de hardware.");
+    respuesta=sc.nextInt();
+    if (respuesta==1) {
+        numRespCorrectas+=1;
+    }
     System.out.println("Has sacado un "+ numRespCorrectas );
 
 
@@ -35,100 +102,5 @@ public class Ej10MiniCuestionario {
 }
 
 
-/*¿Qué es un lenguaje de programación?
-a) Un conjunto de instrucciones para una computadora.
-b) Un dispositivo de entrada.
-c) Un tipo de software antivirus.
-d) Un programa de diseño gráfico.
-
-¿Cuál de las siguientes no es una variable en la programación?
-a) Entero
-b) Cadena de caracteres
-c) Rueda de bicicleta
-d) Flotante
-
-¿Qué es la programación orientada a objetos?
-a) Un paradigma de programación que utiliza objetos para representar datos y funcionalidad.
-b) Un sistema operativo.
-c) Una biblioteca de funciones matemáticas.
-d) Un tipo de virus informático.
-
-¿Cuál de las siguientes no es una estructura de control en programación?
-a) Bucle
-b) Clase
-c) Condicional
-d) Función
-
-¿Cuál de los siguientes lenguajes es ampliamente utilizado para el desarrollo de aplicaciones móviles?
-a) C++
-b) Java
-c) HTML
-d) Photoshop
-
-¿Qué es un IDE en programación?
-a) Un Entorno de Desarrollo Integrado, que proporciona herramientas para escribir y depurar código.
-b) Un servidor web.
-c) Un sistema operativo.
-d) Un lenguaje de programación.
-
-¿Qué significa "debuggear" un programa?
-a) Encontrar y corregir errores en el código.
-b) Ejecutar el programa en modo de prueba.
-c) Compilar el programa.
-d) Eliminar el programa por completo.
-
-¿Qué es un array o arreglo en programación?
-a) Una estructura de datos que almacena una colección de elementos del mismo tipo.
-b) Una instrucción de control.
-c) Un operador aritmético.
-d) Un tipo de bucle.
-
-¿Cuál de los siguientes lenguajes se usa comúnmente para crear páginas web interactivas?
-a) Python
-b) JavaScript
-c) Ruby
-d) SQL
-
-¿Qué es un algoritmo?
-a) Un conjunto de instrucciones que resuelve un problema o realiza una tarea.
-b) Una herramienta de diseño gráfico.
-c) Un programa informático.
-d) Un tipo de hardware.
-
-Espero que estas preguntas te sean útiles para repasar programación. Si tienes alguna duda sobre alguna de las respuestas, no dudes en preguntar.
 
 
-
-
-User
-responde a las preguntas del texto anterior
-ChatGPT
-Por supuesto, aquí tienes las respuestas a las preguntas del texto anterior:
-
-a) Un conjunto de instrucciones para una computadora.
-
-c) Rueda de bicicleta.
-
-a) Un paradigma de programación que utiliza objetos para representar datos y funcionalidad.
-
-b) Clase.
-
-b) Java.
-
-a) Un Entorno de Desarrollo Integrado, que proporciona herramientas para escribir y depurar código.
-
-a) Encontrar y corregir errores en el código.
-
-a) Una estructura de datos que almacena una colección de elementos del mismo tipo.
-
-b) JavaScript.
-
-a) Un conjunto de instrucciones que resuelve un problema o realiza una tarea.
-
-Espero que estas respuestas te sean de ayuda. Si tienes más preguntas o necesitas aclaraciones adicionales, no dudes en preguntar.
-
-
-
-
-User
-gracias te quiero */
